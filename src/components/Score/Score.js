@@ -1,12 +1,11 @@
-import React from 'react';
-import BestScore from './BestScore';
-import Current from './Current';
+import React from 'react'
+import styled from 'styled-components';
 
-export default function Score() {
+export default function Score({currentScore, bestScore}) {
     return (
-        <div className='Score'>
-            <Current />
-            <BestScore />
+        <div>
+            <h4>Current score: {currentScore}</h4>
+            <h4>Best score: {bestScore}</h4>  
         </div>
     )
 }

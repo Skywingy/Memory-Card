@@ -19,4 +19,4 @@ The main goal of this project is to use hooks or lifecycle methods as well as a 
 1. Change the current scoreboard
 2. Remember the id of the card that clicked
 3. Will do shuffle
-4. Will listen on end condition
+4. Will listen the end condition
